@@ -12,5 +12,10 @@ pipeline {
                 echo 'Hello timer'
             }
         }
+        stage('Htime') {
+            steps {
+                echo 'heloooooooooo'
+            }
+        }
     }   
 }
